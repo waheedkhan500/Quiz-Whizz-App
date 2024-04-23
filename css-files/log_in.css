@@ -1,0 +1,118 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing:border-box;  
+}
+html { 
+    background: url("../assets/screen10.png") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #83822d;
+    font-family: 'Signika', serif;
+    overflow: hidden;
+  }
+
+#logo{
+    width: auto;
+    height: 57px;
+    filter:drop-shadow(1px 1px 1px black);
+    cursor:pointer;
+    margin: auto;
+    margin-top: 2px;
+}
+
+.heading {
+    margin: 30px 0px 0px 10px;
+    text-align: center;
+    padding: 0px 20px 35px 0px;
+    font-size:medium;
+    width:auto;
+}
+
+.head{
+    padding:2px 10px 0px 2px;
+    }
+
+.input{
+    width: 350px;
+    height:0px;
+    border-radius: 2px 5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1.5px solid #546d03;
+    padding: 12px 50px 20px 27px; 
+    outline:none;
+    margin:0px 10px 0px 30px;
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0.3,0);
+}
+
+button{
+    border-style: hidden;
+    border-radius:15px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
+    width:325px;
+    height:50px;
+    background-color: #6d8c04;
+    outline: none;
+    margin: 20px 15px 15px 85px;
+    color: white;
+    cursor: pointer;
+
+}
+
+button:hover{
+    background: #dfd81a;
+    color: white;
+    transition: none;
+}
+
+#page1, #page2{
+    background-repeat:no-repeat;
+    background-color:white;
+    border-radius: 3px;
+    min-height:500px;
+    width:500px;
+    margin:35px 150px 40px 450px;
+    display: grid;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+#page1{
+    padding-top:5px;
+    padding-bottom:20px;
+}
+
+#page2{
+    padding-top:40px;
+    padding-bottom:20px;
+}
+
+
+form{
+    padding:8px 6px 2px 35px;
+}
+
+.account{
+    text-align: center;
+}
+p a, .forgot a, span a{
+    text-decoration:none;
+    color: #dfd81a;
+}
+.forgot{
+    text-align: left;
+    margin:3px 0px 0px 350px;
+}
+.form-check {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px 10px 70px;
+}
+span {
+    margin: 3px 40px 0px 8px;
+}

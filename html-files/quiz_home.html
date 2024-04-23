@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" id="quiz_home">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="../css-files/landing_page.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Signika|Andika|Raleway">
+    <script src='../javascript-files/quiz_questions.js'></script>
+
+
+</head>
+
+<body onload="checkIfLoggedIn(event); fillTable(event);">
+
+    <header>
+        <nav>
+            <img onclick="goToHome(event)" id="logo2" alt="Q-Whiz Logo" src="../assets/q_whiz.png">
+            <li><button id="button_3" onclick="goToHome(event)">HOME</button></li>
+            <li><button id="button_3" onclick="signUserOut(event)">SIGN OUT</button></li>
+        </nav>
+    </header>
+
+
+    <section>
+
+        <div id="page_text">
+            <b class="medium_text">Welcome Whiz </b><b class="small_text" id="welcome">User,</b>
+            <div class="heading_centre">
+                <p>Here's your score history</p>
+            </div>
+            <div class="table_container">
+                <table id="scoreTable">
+                    <tr>
+                        <th>No.</th>
+                        <th>Date</th>
+                        <th>Points</th>
+                        <th>Grade</th>
+                    </tr>
+                    
+                </table>
+                <div id="table_bottom_text">
+                    <li id="set_record">Wanna set a new record?</li>
+                    <button id="button_4" onclick="goToQuestions(event)">Let's Do This!</button>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </section>
+</body>
+
+</html>

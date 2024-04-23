@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html id="html_" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 1</title>
+    <link rel="stylesheet" href="../css-files/questions.css">
+    <script src='../javascript-files/quiz_questions.js'></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Signika">
+
+</head>
+
+<body id="q1" onload="checkIfLoggedIn(event)">
+    <div class="wrapper">
+
+        <form action="">
+
+            <div class="question">
+                <h3 class="question_heading" id="question_heading">Question 1</h3>
+                <p class="question_text" id="question_text">What is CSS stands for?</p>
+            </div>
+
+            <div class="options" id="options">
+                    <input type="radio" id="option_a" name="option_select" class="option_select" value="a">
+                    <label id="option_a_label" for="option_a">styling sheets</label>
+
+                    <input type="radio" id="option_b" name="option_select" class="option_select" value="b">
+                    <label id="option_b_label" for="option_b">computer style sheet</label>
+
+                    <input type="radio" id="option_c" name="option_select" class="option_select" value="c">
+                    <label id="option_c_label" for="option_c">Cascading style sheet</label>
+
+                    <button class="submit_button" onclick="submitResponse(event)">Submit</button>
+            </div>
+
+
+        </form>
+    </div>
+</body>
+
+</html>

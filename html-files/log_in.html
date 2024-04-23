@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+    <link rel="stylesheet" href="../css-files/log_in.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Signika">
+    <script src="../javascript-files/log_in.js"></script>
+    <script src="../javascript-files/quiz_questions.js"></script>
+
+</head>
+<body>
+    <div id="page2">
+        <img onclick="checkIfLoggedIn(event)" src="../assets/q_whiz.png" alt="Q-whiz logo" id="logo">
+        <div class="heading">
+            <div class="head"><h1>Let's Get Quizzing...</h1></div>
+        </div>
+
+        <div>
+            <form>
+                <div>
+                    <input type="text" id="username" class = "input" placeholder="Username" required/>
+                </div>
+                <br>
+                <br>
+                <div>
+                    <input type="password" id="password" class="input" placeholder="Password" required/>
+                </div>
+            </form>
+            <div class="forgot">
+                <p><a href="">Forgot it?</a></p>
+            </div>
+            <br>
+            <br>
+            <div>
+                <button onclick="loginUser(event);">LOG IN</button>
+            </div>
+            <br>
+            <div class="account">
+                <p>Don't have an account? Not a problem</p>
+            </div>
+            <div class="account">
+                <p>Sign up <a href="./sign_up.html">here</a></p></p>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

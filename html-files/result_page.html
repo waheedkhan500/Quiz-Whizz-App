@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>
+    <link rel="stylesheet" href="../css-files/result_page.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Signika">
+    <script src='../javascript-files/quiz_questions.js'></script>
+
+</head>
+
+<body onload="checkIfLoggedIn(event); changeScore(event);">
+    <div class="result_container">
+        <h2 class="result_title">Your Result</h2>
+        
+
+        <div class="circle">
+            <h2 class="result" id="result">3/5</h2>
+        </div>
+
+        <b class="comment" id="comment"></b>
+
+        <button class="ok_button" onclick="goToDashboard(event)">OK</button>
+
+    </div>
+</body>
+</html>
