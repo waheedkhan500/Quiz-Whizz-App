@@ -1,5 +1,5 @@
 #landing_page {
-  background: url("../assets/screen9.png") no-repeat center center fixed; 
+  background: url("./assets/screen9.png") no-repeat center center fixed; 
   background-color: #83822d;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -9,7 +9,7 @@
 }
 
 #quiz_home {
-  background: url("../assets/screen8.png") no-repeat center center fixed; 
+  background: url("./assets/screen8.png") no-repeat center center fixed; 
   background-color: #83822d;
   -webkit-background-size: cover;
   -moz-background-size: cover;
