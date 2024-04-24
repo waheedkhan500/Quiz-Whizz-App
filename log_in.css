@@ -4,7 +4,7 @@
     box-sizing:border-box;  
 }
 html { 
-    background: url("../assets/screen10.png") no-repeat center center fixed; 
+    background: url("./assets/screen10.png") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
