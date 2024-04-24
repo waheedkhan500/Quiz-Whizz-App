@@ -6,7 +6,7 @@ var question1 = {
     option_b: "Computer styling Sheets",
     option_c: "Cascading style sheet",
     answer: "a",
-    image_url: "../assets/honey_lines.png"
+    image_url: "./assets/honey_lines.png"
 }
 
 var question2 = {
@@ -16,7 +16,7 @@ var question2 = {
   option_b: "hypert text making language",
   option_c: "High level language",
   answer: "a",
-  image_url: "../assets/flowerpot.png",
+  image_url: "./assets/flowerpot.png",
 };
 var question3 = {
   number: 3,
@@ -25,7 +25,7 @@ var question3 = {
   option_b: "Charles babage",
   option_c: "Bill Gates",
   answer: "b",
-  image_url: "../assets/football.png",
+  image_url: "./assets/football.png",
 };
 var question4 = {
     number: 4,
@@ -34,7 +34,7 @@ var question4 = {
     option_b: "world world world",
     option_c: "World Wide Web",
     answer: "c",
-    image_url: "../assets/windows_and_leaves.png"
+    image_url: "./assets/windows_and_leaves.png"
 }
 var question5 = {
     number: 5,
@@ -43,7 +43,7 @@ var question5 = {
     option_b: "Karachi",
     option_c: "Islamabad",
     answer: "c",
-    image_url: "../assets/clothes_on_lines.png"
+    image_url: "./assets/clothes_on_lines.png"
 }
 
 //define variables for array of user answers, current question number and total score
