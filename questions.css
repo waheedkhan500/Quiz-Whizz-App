@@ -1,12 +1,12 @@
 * {
-   /* this removes any prior or default design on the page, this way I can do everything myself from the scratch*/
+  
    margin: 0%;
    padding: 0%;
    box-sizing: border-box;
 }
 
 html {
-   background: url("../assets/honey_lines.png") no-repeat center center fixed;
+   background: url("./assets/honey_lines.png") no-repeat center center fixed;
    background-color: #83822d;
    -webkit-background-size: cover;
    -moz-background-size: cover;
